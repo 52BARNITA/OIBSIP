@@ -26,3 +26,8 @@ Calculator/
 ├── index.html
 ├── style.css
 └── script.js
+
+## Screenshots
+
+![Calculator UI](screenshots/calculator-ui.png)
+![Calculator Working](screenshots/calculator-operation.png)
