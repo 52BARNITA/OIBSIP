@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #333;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+}
+
+.cal-container {
+    width: 360px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.calculator {
+    width: 315px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.display {
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    color: #0f0;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: inset 0 0 8px #0f0;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    width: 100%;
+    height: 60px;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+    font-weight: bold;
+}
+
+button[data-operator] {
+    background-color: #ff9500;
+    color: #fff;
+    font-size: 23px;
+}
+ button[data-operator]:hover {
+    background-color: #e08900;
+}
+
+.equal {
+    background-color: #1cd54aff;
+    color: #fff;
+    font-size: 25px;
+    grid-column: span 2;
+}
+.equal:hover {
+    background-color: #12b037ff;
+}
