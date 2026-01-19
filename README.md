@@ -22,6 +22,7 @@ A fully functional calculator web application built using **HTML, CSS, and JavaS
 - JavaScript (DOM Manipulation, Event Handling)
 
 ### 📂 Project Structure
+
 Calculator/
 ├── index.html
 ├── style.css
@@ -31,3 +32,40 @@ Calculator/
 
 ![Calculator UI](screenshots/calculator-ui.png)
 ![Calculator Working](screenshots/calculator-operation.png)
+
+## 🌸 Level 2 – Task 2: Tribute Page – Savitribai Phule**OIBSIP 
+
+## 📌 Project Overview
+This project is a **Tribute Page** dedicated to **Savitribai Phule**, one of India’s greatest social reformers and the first female teacher of India.  
+The page highlights her life, achievements, and contribution towards women’s education and social equality.
+
+This project was developed as part of the Oasis Infobyte Web Development Internship (Level 2 – Task 2).
+---
+
+## 🛠️ Technologies Used
+- **HTML5** – Structure of the webpage  
+- **CSS3** – Styling and layout  
+- **Google Fonts** – For better typography  
+
+---
+
+## ✨ Features
+- Clean and simple UI design  
+- Informative content about Savitribai Phule  
+- Responsive layout for better viewing  
+- Well-structured sections (Intro, Timeline, Achievements)  
+
+---
+
+## 📂 Project Structure
+
+Task-2-Tribute-Page/
+├── index.html
+├── style.css
+
+
+## 🖼️ Screenshots
+
+### 🔹 Desktop View
+![Desktop View](screenshots/tribute-desktopUp.png)
+![Desktop View](screenshots/tribute-desktop.png)
