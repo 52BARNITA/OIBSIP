@@ -69,3 +69,32 @@ Task-2-Tribute-Page/
 ### 🔹 Desktop View
 ![Desktop View](screenshots/tribute-desktopUp.png)
 ![Desktop View](screenshots/tribute-desktop.png)
+
+# Level 2 Task 3: To-Do App
+
+A simple and responsive **To-Do Web Application** built using **HTML, CSS, and JavaScript** as part of the **Oasis Infobyte Web Development Internship**.
+
+## Features
+- Add tasks to Pending list
+- Mark tasks as Completed
+- Delete tasks
+- Data persistence using localStorage
+- Responsive design for desktop and mobile
+
+## Tech Stack
+- HTML5  
+- CSS3  
+- JavaScript
+
+## Project Structure
+Task-3-ToDo-App/
+├── index.html
+├── style.css
+├── script.js
+└── images/
+
+## Screenshots
+- ![Desktop View] (screenshots/todo-desktop.png)
+- ![Mobile View] (screnshots/todo-mobile.png)
+
+---
