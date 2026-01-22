@@ -94,7 +94,7 @@ Task-3-ToDo-App/
 └── images/
 
 ## Screenshots
-- ![ToDo App Desktop] (screenshots/todo-desktop.png)
-- ![ToDo App Mobile] (screnshots/todo-mobile.png)
+- ![Desktop View](screenshots/todo-desktop.png)
+- ![Mobile View](screenshots/todo-mobile.png)
 
 ---
