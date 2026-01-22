@@ -84,7 +84,7 @@ A simple and responsive **To-Do Web Application** built using **HTML, CSS, and J
 ## Tech Stack
 - HTML5  
 - CSS3  
-- JavaScript
+- JavaScript (DOM Manipulation, Events, localStorage, filter())
 
 ## Project Structure
 Task-3-ToDo-App/
@@ -98,5 +98,7 @@ Task-3-ToDo-App/
 - ![Desktop View](screenshots/todo-desktop.png)
 # 🔹 Mobile View
 - ![Mobile View](screenshots/todo-mobile.png)
+- ![Pending and Completed View](screenshots/task3-pending-completed.png)
+- ![LocalStorage View](screenshots/task3-localstorage.png)
 
 ---
