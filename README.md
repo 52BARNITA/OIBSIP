@@ -102,3 +102,54 @@ Task-3-ToDo-App/
 - ![LocalStorage View](screenshots/task3-localstorage.png)
 
 ---
+
+# 🔐 Login Authentication System
+**OIBSIP | Level 2 – Task 4**
+
+A simple **Login & Registration Authentication System** built using **HTML, CSS, and JavaScript**.  
+Users can register, login, and access a secured dashboard with data stored in **localStorage**.
+
+---
+
+## ✨ Features
+- User Registration & Login
+- Password Show / Hide toggle
+- Error handling with inline messages
+- Secure page access after login
+- Responsive UI (Mobile, Tablet, Desktop)
+- Glassmorphism UI with background image
+- Data persistence using localStorage
+
+---
+
+## 🛠️ Tech Stack
+- HTML5
+- CSS3 (Flexbox, Responsive Design)
+- JavaScript (DOM, Events, localStorage)
+
+---
+
+## 📂 Project Structure
+Task-4-Login-Authentication/
+├── index.html
+├── register.html
+├── dashboard.html
+├── style.css
+├── script.js
+└── Images/
+
+---
+
+## 🖼️ Screenshots
+
+## 🔹 Desktop View
+![Login Page](screenshots/login-desktop.png)
+![Register Page](screenshots/register-desktop.png)
+![Dashboard](screenshots/dashboard-desktop.png)
+## 🔹 localStorage
+![Login Page](screenshots/localStorage-responsive.png)
+
+---
+
+## 🚀 How to Run
+Open `index.html` in any modern browser.
