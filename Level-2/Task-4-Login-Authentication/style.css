@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+body{
+    min-height: 100vh;         /* full screen height on all devices */
+    display: flex;
+    justify-content: center;   /* horizontal center */
+    align-items: center;       /* vertical center */
+    
+    background-color: #cdcad3;
+    background-image: url("./Images/pexels-kevin-dorg-136105-2881262.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+h1{
+    margin-bottom: 12px;
+    color: #320c5d;
+}
+.container{
+    width: 100%;
+    max-width: 360px;
+    padding: 25px;
+    background: rgba(214, 208, 220, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.container input{
+    background-color: rgba(223, 218, 244, 0.8);
+    margin-bottom: 12px;
+}
+
+.container input,
+.password-box{
+    width: 100%;
+}
+
+#errorMsg {
+  color: red;
+  font-size: 16px;
+  text-align: center;
+}
+
+.password-box {
+  position: relative;
+}
+
+#loginUsername,
+.password-box input{
+    border: 1px solid #c4b5fd;
+    width: 100%;
+    box-sizing: border-box;
+} 
+
+#loginUsername,
+.password-box input {
+  width: 100%;
+  padding: 10px 35px 10px 10px; /* right padding for icon */
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #c4b5fd;
+}
+
+#togglePassword {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 16px;
+  color: #555;
+}
+
+button{
+    background-color: #6d28d9;
+    color: aliceblue;
+    width: 100%;
+    max-width: 200px;
+    height: 38px;
+    font-size: 2rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: #490498 2px solid;
+}
+button:hover{
+  background-color: #5b21b6;
+  cursor: pointer;
+}
+
+input, button {
+  font-size: 16px;
+}
+
+#user{
+    font-size: 1.2rem;
+    color: #2a1cc5;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+p a{
+    color: #410c7d;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+p a:hover{
+    color: #5a0bb4;
+}
+
+.sub-container{
+    margin: 8px 5px 0px 0px;
+}
+
+.dashboard-container{
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+#regUsername{
+  width: 100%;
+  padding: 10px 35px 10px 10px; /* right padding for icon */
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #c4b5fd;
+}
+
+#regPassword{
+  width: 100%;
+  padding: 10px 35px 10px 10px; /* right padding for icon */
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #c4b5fd;
+}
+
+@media (max-width: 480px) {
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  p a {
+    font-size: 1rem;
+  }
+}
